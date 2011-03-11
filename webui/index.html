@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!--
+        <meta http-equiv="refresh" content="1">
+        -->
+        <title>Fluke 45 多功能数字万用表</title>
+
+        <style type="text/css"> 
+            body  {
+                font: 100% 宋体, 新宋体;
+                background: #666666;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                color: #000000;
+            }
+            .twoColFixLtHdr #container { 
+                width: 780px;
+                background: #FFFFFF;
+                margin: 0 auto;
+                border: 1px solid #000000;
+                text-align: left;
+            } 
+            .twoColFixLtHdr #header { 
+                background: #DDDDDD; 
+                padding: 0 10px 0 20px;
+            } 
+            .twoColFixLtHdr #header h1 {
+                margin: 0;
+                padding: 10px 0;
+            }
+            .twoColFixLtHdr #sidebar1 {
+                float: left;
+                width: 200px;
+                background: #EBEBEB;
+                padding: 15px 10px 15px 20px;
+            }
+            .twoColFixLtHdr #mainContent { 
+                margin: 0 0 0 250px;
+                padding: 0 20px;
+            } 
+            .twoColFixLtHdr #footer { 
+                padding: 0 10px 0 20px;
+                background:#DDDDDD; 
+            } 
+            .twoColFixLtHdr #footer p {
+                margin: 0;
+                padding: 10px 0;
+            }
+            .fltrt {
+                float: right;
+                margin-left: 8px;
+            }
+            .fltlft {
+                float: left;
+                margin-right: 8px;
+            }
+            .clearfloat {
+                clear:both;
+                height:0;
+                font-size: 1px;
+                line-height: 0px;
+            }
+    </style></head>
+
+    <body class="twoColFixLtHdr">
+
+        <div id="container">
+            <div id="header">
+                <h1>Fluke 45 多功能数字万用表</h1>
+                <!-- end #header --></div>
+            <div id="sidebar1">
+                <h3><a href="/index.html">首页</a></h3>
+                <h3><a href="/cgi/mod.cgi?mod=dv">直流电压</a></h3>
+                <h3><a href="/cgi/mod.cgi?mod=av">交流电压</a></h3>
+                <h3><a href="/cgi/mod.cgi?mod=di">直流电流</a></h3>
+                <h3><a href="/cgi/mod.cgi?mod=ai">交流电流</a></h3>
+                <h3><a href="/cgi/mod.cgi?mod=re">电阻</a></h3>
+                <h3><a href="/cgi/mod.cgi?mod=fq">频率</a></h3>
+                </div>
+            <div id="mainContent">
+                <h1> 操作面板 </h1>
+                <form method="GET" action="cgi/onoff.cgi">
+                    操作:<input type="radio" name="act" value="on" checked>重启
+                    <input type="submit" value="确定"><br>
+                </form>
+                <form method="GET" action="cgi/cmd.cgi">
+                    调试:<input size=20 name="cmd">
+                    <input type="submit" value="发送">
+                    <input type="reset" value="清除"><br>
+                </form><br>
+
+                <p><img src="/image/fluke45.jpg" width="200"></p>
+            </div>
+            <br class="clearfloat" />
+            <div id="footer">
+                <p align=right>复旦大学电子工程系 马耀辉 07300720027</p></div></div>
+    </body>
+</html>
